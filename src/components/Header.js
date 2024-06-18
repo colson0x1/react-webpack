@@ -20,12 +20,14 @@ class Header extends Component {
 
   render() {
     return (
-      <div className="row">
+      <div className='row'>
         <nav>
-          <div className="nav-wrapper">
-            <div className="col s12">
-              <a href="#" className="brand-logo">UpStar Music</a>
-              <ul id="nav-mobile" className="right hide-on-med-and-down">
+          <div className='nav-wrapper'>
+            <div className='col s12'>
+              <a href='#' className='brand-logo'>
+                Spotify
+              </a>
+              <ul id='nav-mobile' className='right hide-on-med-and-down'>
                 <li>
                   <Link
                     to={`/artists/${this.state.id}`}
@@ -35,9 +37,7 @@ class Header extends Component {
                   </Link>
                 </li>
                 <li>
-                  <Link to={'/artists/new'}>
-                    Create Artist
-                  </Link>
+                  <Link to={'/artists/new'}>Create Artist</Link>
                 </li>
               </ul>
             </div>
@@ -46,6 +46,6 @@ class Header extends Component {
       </div>
     );
   }
-};
+}
 
 export default Header;
