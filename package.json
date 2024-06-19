@@ -1,12 +1,12 @@
 {
-  "name": "spotify-redux-webpack",
+  "name": "react-webpack",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack"
   },
-  "repository": "https://github.com/colson0x1/spotify-redux-webpack",
+  "repository": "https://github.com/colson0x1/react-webpack",
   "author": "COLSON",
   "license": "MIT",
   "dependencies": {

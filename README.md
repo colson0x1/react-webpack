@@ -1,1 +1,1 @@
-# Spotify Redux Webpack
+# React Webpack
