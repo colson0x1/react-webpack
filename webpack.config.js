@@ -26,7 +26,7 @@ module.exports = {
     path: path.join(__dirname, 'dist'),
     // filename: 'bundle.js',
     // Dynamically update the output budnle name
-    filename: '[name].js',
+    filename: '[name].[chunkhash].js',
   },
   module: {
     rules: [
@@ -42,8 +42,12 @@ module.exports = {
     ],
   },
   plugins: [
+    // if any common modules, stick in the vendor
     new webpack.optimize.CommonsChunkPlugin({
-      name: 'vendor',
+      // name: 'vendor',
+      // purpose of the manifest is to better tell the browser on weather or
+      // not the vendor file is actually changed
+      names: ['vendor', 'manifest'],
     }),
     new HtmlWebpackPlugin({
       template: 'src/index.html',
