@@ -52,5 +52,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: 'src/index.html',
     }),
+    // DefinePlugin is used to define window scope global variables that will
+    // be define within bundle.js file or really the JavaScript output files
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+    }),
   ],
 };
