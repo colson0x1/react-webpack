@@ -13,6 +13,7 @@
   "author": "COLSON",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.19.2",
     "faker": "^3.1.0",
     "lodash": "^4.17.2",
     "react": "15.4.1",
