@@ -1,6 +1,6 @@
-# REACT WEBPACK 
+# REACT WEBPACK
 
-Sup! This repository demonstrates an advanced configuration of a React application using Webpack, focusing on optimized builds and efficient handling of static assets for both development and production environments engineered with scalability for application infrastructure.
+Sup!! This repository demonstrates an advanced configuration of a React application using Webpack, focusing on optimized builds and efficient handling of static assets for both development and production environments engineered with scalability for application infrastructure.
 
 ![react webpack](https://i.imgur.com/5zqFQNN.png)
 
